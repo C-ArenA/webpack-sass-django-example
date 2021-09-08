@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page1</title>
+    <link rel="stylesheet" href="{% static 'app1/app/style.css' %}">
+    <link rel="stylesheet" href="{% static 'app1/page1/style.css' %}">
+</head>
+<body>
+    <h1>Page1</h1>
+    {% comment "this" %}
+    <script src="../../static/app1/app/main.js"></script>
+    {% endcomment %}
+    <script src="{% static 'app1/app/main.js' %}"></script>
+    <script src="{% static 'app1/page1/main.js' %}"></script>
+</body>
+</html>
