@@ -7,11 +7,12 @@ I'm using node BTW, so you can use any library.
 
 You will need to run the Django server with
 
-´´´
+```bash
 python manage.py runserver
-´´´
+```
 and the webpack script to watch files
-´´´
+```bash
 npm run watch
-´´´
+```
+
 
